@@ -1,0 +1,15 @@
+.css-13cymwt-control {
+  background: #f2f2f2 !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+.css-t3ipsp-control {
+  background: #f2f2f2 !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+.lg-placeholder::placeholder {
+  font-size: 15px;
+  color: #808080;
+}

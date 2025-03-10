@@ -1,6 +1,7 @@
 import { FaGoogle } from "react-icons/fa";
 import loginImg from "../../assets/login.jpg";
 import "./Login.css";
+import { Link } from "react-router";
 
 export const Login = () => {
   return (
@@ -49,7 +50,9 @@ export const Login = () => {
         </div>
         <p className="text-center mt-6 pb-10">
           Dont have an account?{" "}
-          <span className="text-blue-600 font-medium">Sign up now</span>
+          <Link to="/register">
+            <span className="text-blue-600 font-medium">Sign up now</span>
+          </Link>
         </p>
       </div>
     </div>
