@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router";
+import { PrimaryBtn } from "../Button/PrimaryBtn";
 
 export const Navbar = () => {
   // nav list
@@ -16,7 +17,7 @@ export const Navbar = () => {
     </>
   );
   return (
-    <nav className="bg-transparent fixed w-full">
+    <nav className="bg-transparent fixed w-full z-50">
       <div className="navbar w-11/12 lg:w-9/12 mx-auto h-[70px]">
         <div className="navbar-start">
           {/* mobile version */}
@@ -50,12 +51,10 @@ export const Navbar = () => {
         </div>
 
         <div className="navbar-end">
-          <ul className="menu menu-horizontal px-1 hidden md:flex gap-8 mr-8">
+          <ul className="menu menu-horizontal px-1 hidden md:flex gap-8 mr-8 text-white font-medium">
             {navList}
           </ul>
-          <Link className="btn bg-main border-none text-white text-[15px] rounded-3xl font-bold w-[120px] md:w-[164px] py-6 ">
-            Sign Up
-          </Link>
+          <PrimaryBtn text={"Login"} />
         </div>
       </div>
     </nav>
