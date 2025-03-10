@@ -4,3 +4,7 @@
 @theme {
   --color-main: #c38a00;
 }
+
+body {
+  font-family: "inter", "sans-serif";
+}

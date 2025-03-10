@@ -54,7 +54,9 @@ export const Navbar = () => {
           <ul className="menu menu-horizontal px-1 hidden md:flex gap-8 mr-8 text-white font-medium">
             {navList}
           </ul>
-          <PrimaryBtn text={"Login"} />
+          <Link to="/login">
+            <PrimaryBtn text={"Login"} />
+          </Link>
         </div>
       </div>
     </nav>
