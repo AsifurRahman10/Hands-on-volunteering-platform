@@ -9,7 +9,7 @@ export const MainLayout = () => {
 
       <Outlet />
 
-      <Footer />
+      {/* <Footer />   */}
     </div>
   );
 };

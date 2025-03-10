@@ -2,8 +2,13 @@ import bannerImg from "../../assets/banner-img.jpg";
 export const Banner = () => {
   return (
     <section
-      className="h-[300px]"
-      style={{ backgroundImage: `url(${bannerImg})` }}
+      className="min-h-screen object-center object-cover w-full"
+      style={{
+        backgroundImage: `url(${bannerImg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
     ></section>
   );
 };

@@ -16,8 +16,8 @@ export const Navbar = () => {
     </>
   );
   return (
-    <nav className="bg-base-100 shadow-sm">
-      <div className="navbar w-11/12 lg:w-9/12 mx-auto">
+    <nav className="bg-transparent fixed w-full">
+      <div className="navbar w-11/12 lg:w-9/12 mx-auto h-[70px]">
         <div className="navbar-start">
           {/* mobile version */}
           <div className="dropdown">
@@ -53,7 +53,7 @@ export const Navbar = () => {
           <ul className="menu menu-horizontal px-1 hidden md:flex gap-8 mr-8">
             {navList}
           </ul>
-          <Link className="btn bg-main text-white text-[15px] rounded-3xl font-bold w-[120px] md:w-[164px] py-6">
+          <Link className="btn bg-main border-none text-white text-[15px] rounded-3xl font-bold w-[120px] md:w-[164px] py-6 ">
             Sign Up
           </Link>
         </div>
